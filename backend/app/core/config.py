@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     deepseek_model: str = "deepseek-chat"
 
     class Config:
-        env_file = ".env"
+        env_file = "../.env"
 
 
 settings = Settings()
